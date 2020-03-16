@@ -11,5 +11,8 @@
   "dependencies": {},
   "engines": {
     "node": "12.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
