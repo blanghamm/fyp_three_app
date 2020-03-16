@@ -7,7 +7,7 @@ const port = 3005;
 
 app.use(cors());
 
-app.get("/", (req, res) => {
+app.get("*", (req, res) => {
   res.send("I am alive").status(200);
 });
 
