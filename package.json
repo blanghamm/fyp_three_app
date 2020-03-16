@@ -9,10 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "engines": {
-    "node": "12.13.0"
-  },
   "devDependencies": {
     "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "12.13.0"
   }
 }
