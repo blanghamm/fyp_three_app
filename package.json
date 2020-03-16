@@ -4,9 +4,12 @@
   "description": "three visual application",
   "main": "index.js",
   "scripts": {
-    "start": "cd backend && npm run dev"
+    "start": "cd backend && npm run dev & cd frontend && npm run start"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": "12.13.0"
+  }
 }
