@@ -4,7 +4,8 @@
   "description": "three visual application",
   "main": "index.js",
   "scripts": {
-    "start": "(cd backend && npm run dev) & (cd frontend && npm run start)"
+    "start": "(cd frontend && npm run start) & npm run dev",
+    "dev": "(cd backend && npm run dev)"
   },
   "author": "",
   "license": "ISC",
